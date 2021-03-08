@@ -10,7 +10,7 @@
     <link href="css/style.css" rel="stylesheet">
     <link href="css/search.css" rel="stylesheet">
     <link href="css/advert.css" rel="stylesheet">
-    c
+    <link href="css/form.css" rel="stylesheet">
 </head>
 
 <body>
@@ -78,151 +78,27 @@
                         </div>
 
                     </div>
-
-                    <h2 class="advert-title">Все объявления</h2>
-                    <div class="adverts">
-
-
-                        <div class="card" id="1">
-                            <div class="card-preview">
-                                <img src="./images/default.jpg" />
+                    
+                    <div class="registration">
+                       
+                        <form class="advert-form" method="GET" action="/reg">
+                            <div>
+                                <h2 class="advert-form_title">Регистрация</h2>
                             </div>
-                            <div class="card-title__info">
-                                <div class="card-title">
-                                    Заголовок объявления
-                                </div>
-                                <div class="card-cost">
-                                    200 000 ₽
-                                </div>
-                                <div class="card-address">
-                                    Москва, проспект Ленина, 21
-                                </div>
+                            <div>
+                                <input type="text" maxlength="24" placeholder="Введите ваш логин" name="login" />
                             </div>
-                        </div>
-
-                        <div class="card" id="1">
-                            <div class="card-preview">
-                                <img src="./images/default.jpg" />
+                            <div>
+                                <input type="password" maxlength="24" placeholder="Введите ваш пароль" name="password" />
                             </div>
-                            <div class="card-title__info">
-                                <div class="card-title">
-                                    Заголовок объявления
-                                </div>
-                                <div class="card-cost">
-                                    200 000 ₽
-                                </div>
-                                <div class="card-address">
-                                    Москва, проспект Ленина, 21
-                                </div>
+                            <div>
+                                <input type="password" maxlength="24" placeholder="Повторите ваш пароль" name="repassword" />
                             </div>
-                           
-                        </div>
-
-                        <div class="card" id="1">
-                            <div class="card-preview">
-                                <img src="./images/default.jpg" />
+                            <div class="">
+                                <button type="submit"> Зарегистрироваться</button>
                             </div>
-                            <div class="card-title__info">
-                                <div class="card-title">
-                                    Заголовок объявления
-                                </div>
-                                <div class="card-cost">
-                                    200 000 ₽
-                                </div>
-                                <div class="card-address">
-                                    Москва, проспект Ленина, 21
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="card" id="1">
-                            <div class="card-preview">
-                                <img src="./images/default.jpg" />
-                            </div>
-                            <div class="card-title__info">
-                                <div class="card-title">
-                                    Заголовок объявления
-                                </div>
-                                <div class="card-cost">
-                                    200 000 ₽
-                                </div>
-                                <div class="card-address">
-                                    Москва, проспект Ленина, 21
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="card" id="1">
-                            <div class="card-preview">
-                                <img src="./images/default.jpg" />
-                            </div>
-                            <div class="card-title__info">
-                                <div class="card-title">
-                                    Заголовок объявления
-                                </div>
-                                <div class="card-cost">
-                                    200 000 ₽
-                                </div>
-                                <div class="card-address">
-                                    Москва, проспект Ленина, 21
-                                </div>
-                            </div>
-                        </div>
-
-
-
-                        <div class="card" id="1">
-                            <div class="card-preview">
-                                <img src="./images/default.jpg" />
-                            </div>
-                            <div class="card-title__info">
-                                <div class="card-title">
-                                    Заголовок объявления
-                                </div>
-                                <div class="card-cost">
-                                    200 000 ₽
-                                </div>
-                                <div class="card-address">
-                                    Москва, проспект Ленина, 21
-                                </div>
-                            </div>
-                        </div>
-
-
-
-                        <div class="card" id="1">
-                            <div class="card-preview">
-                                <img src="./images/default.jpg" />
-                            </div>
-                            <div class="card-title__info">
-                                <div class="card-title">
-                                    Заголовок объявления
-                                </div>
-                                <div class="card-cost">
-                                    200 000 ₽
-                                </div>
-                                <div class="card-address">
-                                    Москва, проспект Ленина, 21
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="card" id="1">
-                            <div class="card-preview">
-                                <img src="./images/default.jpg" />
-                            </div>
-                            <div class="card-title__info">
-                                <div class="card-title">
-                                    Заголовок объявления
-                                </div>
-                                <div class="card-cost">
-                                    200 000 ₽
-                                </div>
-                                <div class="card-address">
-                                    Москва, проспект Ленина, 21
-                                </div>
-                            </div>
-                        </div>
+                        
+                        </form>
 
                     </div>
 
@@ -339,7 +215,7 @@
             </ul>
             <ul>
                 <li><a href="#">Профиль</a></li>
-                <li><a href="registration.html">Зарегистрироваться</a></li>
+                <li><a href="#">Зарегистрироваться</a></li>
             </ul>
         </div>
     </footer>

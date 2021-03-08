@@ -1,0 +1,42 @@
+.form-server input {
+    display: block;
+}
+
+.advert-form {
+width: 70%;
+margin: 30px auto;
+border-right: 2px solid #928b8b;
+border-left: 2px solid #928b8b;
+padding: 20px 0px;
+}
+
+.advert-form div {
+padding: 8px 70px;
+}
+
+.advert-form input {
+    width: 100%;
+    padding: 10px 0 px;
+    font-size: 14px;
+}
+
+.advert-form button {
+padding: 10px;
+font-size: 16px;
+cursor: pointer; 
+
+}
+
+.advert-form button:hover {
+background: #eeeeee;
+}
+ 
+.advert-form_button {
+display: block;
+
+}
+
+.advert-form_title {
+font-size: 21px;
+color: #3b3b3b;
+}
