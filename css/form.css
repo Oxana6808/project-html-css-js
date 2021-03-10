@@ -41,6 +41,7 @@ justify-content: flex-end;
 .advert-form_title {
 font-size: 21px;
 color: #3b3b3b;
+
 }
 
 .advert-form_button__login div {
@@ -69,3 +70,34 @@ color: #3b3b3b;
     display: flex;
     justify-content: flex-end;
 }
+
+.advert-form-add input::placeholder {
+    color: #474747;
+}
+
+.advert-form input[type="file"]{
+    width: 49%;
+}
+
+.advert-form-category,
+.advert-form-file,
+.advert-form-body{
+    /*background-color: #545d99;
+    border: 1px solid;*/
+}
+
+.advert-form textarea {
+    width: 100%;
+
+}
+
+.advert-form label {
+    width: 50%;
+    display: inline-block;
+    font-size: 17px;
+}
+
+.advert-form select option {
+    padding: 5px;
+}
+
