@@ -3,7 +3,7 @@
 }
 
 .advert-form {
-width: 70%;
+width: 80%;
 margin: 30px auto;
 border-right: 2px solid #928b8b;
 border-left: 2px solid #928b8b;
@@ -24,10 +24,12 @@ padding: 8px 70px;
 padding: 10px;
 font-size: 16px;
 cursor: pointer; 
+min-width: 150px;
 }
 
 .advert-form button:hover {
 background: #eeeeee;
+border-color: #545d99;
 }
  
 .advert-form_button {
@@ -39,4 +41,31 @@ justify-content: flex-end;
 .advert-form_title {
 font-size: 21px;
 color: #3b3b3b;
+}
+
+.advert-form_button__login div {
+    padding: 0px;
+    width: 32%;
+}
+
+
+.advert-form_button__login {
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+     font-weight: 500;
+} 
+
+.advert-form_button__remember {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.advert-form input[type="checkbox"] {
+    width: auto;
+}
+
+.advert-form_button__login {
+    display: flex;
+    justify-content: flex-end;
 }
