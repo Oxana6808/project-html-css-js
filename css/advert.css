@@ -162,3 +162,43 @@ padding: 5px;
 }
 
 .card-mini-cost {}
+
+
+
+.my-adverts {
+    background-color: cornflowerblue;
+    border: 1px solid deeppink;
+}
+.card-list {
+    background-color: darkkhaki;
+    border: 1px solid forestgreen;
+}
+.card-id {
+    background-color: darkslateblue;
+    border: 1px solid gold;
+    display: flex;
+}
+
+.card-title__info {
+    border: 1px solid rgb(189, 21, 29);
+    width: 32%;
+
+}
+
+.card-action {
+    border: 1px solid #fffb8f;
+    width: 32%;
+    background-color: darkorchid;
+    display: list-item;
+}
+
+.card-preview {
+    background-color: aqua;
+    border: 1px solid coral;
+   
+}
+
+.card-action button {
+    display: flex;
+    justify-content: flex-end;
+}
