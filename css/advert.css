@@ -165,40 +165,83 @@ padding: 5px;
 
 
 
-.my-adverts {
-    background-color: cornflowerblue;
-    border: 1px solid deeppink;
-}
+.my-adverts {}
 .card-list {
-    background-color: darkkhaki;
-    border: 1px solid forestgreen;
+    width: 99%;
 }
 .card-id {
-    background-color: darkslateblue;
-    border: 1px solid gold;
-    display: flex;
+  display: flex;
 }
 
 .card-title__info {
-    border: 1px solid rgb(189, 21, 29);
-    width: 32%;
-
+    width: 42%;
+    margin-left: 10px;
 }
 
 .card-action {
-    border: 1px solid #fffb8f;
     width: 32%;
-    background-color: darkorchid;
-    display: list-item;
+    display: inline-table;
 }
 
 .card-preview {
-    background-color: aqua;
-    border: 1px solid coral;
-   
 }
 
 .card-action button {
     display: flex;
     justify-content: flex-end;
+}
+
+.card-action div {
+    display: block;
+}
+.card-action a {
+    background-color: #eeeeee;
+    color: black;
+
+
+}
+.card-action a:hover {
+    background-color: #e7e7e7;
+    cursor: pointer; 
+ 
+    border: 1px grey solid;
+}
+.button_edit a {
+    display: block;
+    max-width: 150px;
+    text-decoration: none;
+    text-align: center;
+    margin: 0px 0px 10px 10px;
+    border-radius: 5px;
+    border: 1px grey solid;
+    line-height: 30px;
+    font-size: 16px;
+}
+
+
+.button_edit  {
+width: 100%;
+}
+
+
+.button_delete button {
+    background-color: orange;
+    min-width: 150px;
+    height: 30px;
+    text-align: center;
+    padding: 2px;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0px 10px 10px;
+    border: solid 1px grey;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.button_delete button:hover {
+    background-color: red;
+    cursor: pointer;
+}
+.button_delete div {
+    display: block;
 }

@@ -21,10 +21,13 @@ padding: 8px 70px;
 }
 
 .advert-form button {
-padding: 10px;
-font-size: 16px;
-cursor: pointer; 
-min-width: 150px;
+    padding: 0;
+    font-size: 16px;
+    cursor: pointer;
+    min-width: 170px;
+    height: 35px;
+    align-items: center;
+    text-align: center;
 }
 
 .advert-form button:hover {
